@@ -8,8 +8,8 @@
     <ProjectGuid>{6F186F8B-E543-476A-B0AC-3D2F82AA8892}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebJob1</RootNamespace>
-    <AssemblyName>WebJob1</AssemblyName>
+    <RootNamespace>FileWatcher</RootNamespace>
+    <AssemblyName>FileWatcher</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -233,11 +233,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\getacr - Web Deploy.pubxml" />
-    <None Include="Properties\webjob-publish-settings.json" />
-    <None Include="Settings.job">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

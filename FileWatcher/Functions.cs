@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.WebJobs;
 
-namespace WebJob1
+namespace FileWatcher
 {
     public class Functions
     {
